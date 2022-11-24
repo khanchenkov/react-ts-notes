@@ -1,0 +1,44 @@
+.note
+  border: 2px solid dodgerblue
+  border-radius: 5px
+  padding: 15px
+  margin-bottom: 10px
+  button
+    border: none
+    background: none
+    cursor: pointer
+  &__show, &__edit
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-bottom: 20px
+    & > span
+      width: 380px
+      line-height: 1.33
+      padding: 5px
+  &__tag
+    font-size: 1em
+    border-radius: 5px
+    background-color: #ebebeb
+    padding: 5px
+    margin-right: 5px
+  &__text-tag
+    color: dodgerblue
+  &__editor
+    border: 1px solid dodgerblue
+    border-radius: 2px
+
+.svg
+  &-edit
+    &:hover
+      path
+        fill: sandybrown
+  &-remove
+    &:hover
+      color: red
+      path
+        color: red
+  &-success
+    &:hover
+      path
+        color: dodgerblue

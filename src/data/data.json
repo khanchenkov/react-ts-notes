@@ -1,0 +1,26 @@
+{
+  "user1": {
+    "notes": [
+      {
+        "id": 1,
+        "text": "#Dictum est factum.",
+        "tags": ["#Dictum"]
+      },
+      {
+        "id": 2,
+        "text": "I wanna go to #shop but gonna order #pizza.",
+        "tags": ["#shop", "#pizza"]
+      },
+      {
+        "id": 3,
+        "text": "#foo #bar #baz #qux",
+        "tags": ["#foo", "#bar", "#baz", "#qux"]
+      },
+      {
+        "id": 4,
+        "text": "No tags...",
+        "tags": []
+      }
+    ]
+  }
+}
