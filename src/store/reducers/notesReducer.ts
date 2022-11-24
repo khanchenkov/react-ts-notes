@@ -38,6 +38,7 @@ export const notesSlice = createSlice({
         updateNote: (state, action: PayloadAction<INote>) => {
             const editedNoteIndex = state.notes.findIndex(item => item.id === action.payload.id)
             state.notes[editedNoteIndex] = action.payload;
+            state.tags = Array.from(new Set(state.notes.map((item) => item.tags).flat()));
         }
     }
 });
